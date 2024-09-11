@@ -23,8 +23,8 @@ services:
     environment:
       # Aqui setamos nossas variáveis de ambiente - não se preocupe, mais para frente, ainda nesse dia, temos
       # uma seção inteira destinada a explicá-las!
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
+      MYSQL_USER: ''
+      MYSQL_PASSWORD: ''
       MYSQL_HOST: database
       MYSQL_PORT: 3306
     # Informa ao docker, para que o container node seja iniciado após o container database
